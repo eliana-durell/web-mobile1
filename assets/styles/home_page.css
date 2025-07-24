@@ -1,0 +1,137 @@
+/* .montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+p, li {
+    font-size: 1.2rem;
+}
+
+.center {
+    display:flex;
+    justify-content: center;
+}
+
+.about {
+    /* display:flex;
+    justify-content: space-evenly; */
+    padding: 20vh 0px;
+    background-image: url("../images/grid.png");
+    background-size: cover;
+}
+
+.about h1 {
+    padding: 0px 45vw;
+}
+
+.about-img {
+    width: 320px;
+    border-radius: 50%;
+    margin: 0px 40vw;
+    border: 5px white solid;
+}
+
+.bio {
+    padding: 20px 150px;
+    background-color: #EDAE49;
+    margin:0;
+    text-align: center;
+}
+
+.about-grid {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+    text-align: center;
+}
+.img-captions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hobbies {
+    background-color: #F9DF74;
+    padding: 50px 100px;
+}
+
+.hobby-img {
+    height: 350px;
+    margin: 10px;
+    border-radius: 20%;
+}
+
+.interest-img {
+    height: 300px;
+    margin: 10px;
+    border-radius: 20%;
+    border: 2px lightgray;
+}
+
+.interests {
+    padding: 50px 100px;
+}
+
+.class-work-grid {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #F9EDCC;
+    padding: 50px 100px;
+}
+
+.icon{
+    width: 100px;
+    margin: 20px 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.class-work-grid a:link {
+    color: green;
+}
+
+.class-work-grid a:visited {
+    color:brown;
+}
+
+.class-work-grid a:hover {
+    border: 2px darkgray solid;
+}
+
+.class-work-grid a:active {
+    background-color: lightgray;
+}
+/* 
+#BB342F red         or #12130F black        or #EDF5FC very light blue
+#8D6A9F purple      or #808080 gray
+#EDAE49 sunflower yellow 
+#F9DF74 pastel yellow
+#F9EDCC yellow beige
+*/
+
+/* 
+#A77464 light wood brown
+#E6D3A3 wheat
+#2F4550 old blue
+#586F7C grey blue
+#A1C6EA power blue
+*/

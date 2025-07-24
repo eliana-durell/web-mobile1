@@ -1,0 +1,433 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, a {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+header {
+    color: white;
+    background-color: black;
+    width: 100vw;
+}
+
+.logo {
+    width: 5vw;
+    height: 5vw;
+    float: left;
+    padding-top: 2vw;
+    padding-left: 2vw;
+}
+
+.top-header h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-right: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+nav {
+    display: flex; 
+    justify-content: space-around;
+    border: 2px white solid;
+}
+
+a {
+    display:flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    color: rgb(78, 211, 255);
+    background-color: black;
+    text-decoration: none;
+    width: 33.33vw;
+    height: 5vh;
+    padding-top: 2.5vh;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    display:flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    color: rgb(78, 211, 255);
+    background-color: black;
+    text-decoration: none;
+    width: 33.33vw;
+    height: 5vh;
+    padding-top: 2.5vh;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    font-size: 1.5rem;
+}
+
+a:active {
+    display:flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    color: rgb(78, 211, 255);
+    background-color: black;
+    text-decoration: underline;
+    width: 33.33vw;
+    height: 5vh;
+    padding-top: 2.5vh;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    font-size: 1.5rem;
+}
+
+.overview {
+    margin: 0;
+}
+
+.hero {
+    width: 100vw;
+}
+
+.caption-block {
+    width: 20vw;
+    background-color: white;
+    position: absolute;
+    top: 35vh;
+    left: 10vw;
+    padding: 2vw;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.combinded {
+    display: grid;
+    justify-content: space-around;
+    margin: 5vh 0;
+}
+
+.history {
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+.history-img img {
+    width: 40vw;
+}
+
+.history-p {
+    width: 20vw;
+    margin-left: 2vw;
+}
+
+.environment {
+    display: flex;
+}
+
+.env-img img {
+    width: 40vw;
+}
+
+.env-p {
+    width: 20vw;
+    margin-right: 2vw;
+}
+
+.event-section-1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 10vh 0;
+    padding: 5vh 0;
+    color: rgb(78, 211, 255);
+}
+
+.event-section-1 h2 {
+    font-size: 2.5rem;
+}
+
+.event-header{
+    display: flex;
+    justify-content: center;
+}
+
+.upcoming-event-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.event-box {
+    margin: 0 2vw;
+}
+
+.event-box h3 {
+    font-size: 1.3rem;
+}
+
+.event-box img {
+    width: 20vw;
+}
+
+.fix-img img {
+    width: 22vw;
+}
+
+.event-section-2 {
+    display: grid;
+    text-align: center;
+    margin: 5vh 0;
+}
+
+.event-section-2 h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.event-section-2 p {
+    padding: 0 20vw;
+}
+
+.img-cap-row {
+    display: flex;
+    text-align: center;
+}
+
+.img-cap img {
+    width: 25vw;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 2vw;
+    color: white;
+}
+#main-page {
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    display: inline;
+    text-decoration: underline;
+}
+
+#main-page:hover {
+    color: rgb(78, 211, 255);
+}
+
+#main-page:active {
+    font-weight: bold;
+}
+
+@media screen and (max-width:960px)  {
+    .logo {
+        display: none;
+    }
+
+    .top-header h1 {
+        padding: 2vh 0;
+    }
+
+    a {
+        display:flex;
+        justify-content: space-evenly;
+        justify-items: center;
+        color: rgb(78, 211, 255);
+        background-color: black;
+        text-decoration: none;
+        width: 33.33vw;
+        height: 5vh;
+        padding-top: 2.5vh;
+        border-left: white 1px solid;
+        border-right: white 1px solid;
+        font-size: 0.8rem;
+    }
+
+    a:hover {
+        font-size: 1rem;
+    }
+
+    a:active {
+        font-size: 1rem;
+    }
+
+    .overview {
+        margin-bottom: 30vh;
+    }
+
+    .caption-block {
+        width: 80vw;
+        background-color: white;
+        position: absolute;
+        top: 80vw;
+        left: 7vw;
+        padding: 2vw;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .combinded {
+        display: grid;
+        justify-content: space-around;
+        margin: 5vh 0;
+    }
+    
+    .history {
+        display: grid;
+        margin-bottom: 2vh;
+    }
+    
+    .history-img img {
+        width: 80vw;
+    }
+    
+    .history-p {
+        width: 80vw;
+        margin-left: 0;
+    }
+    
+    .environment {
+        display: grid;
+    }
+    
+    .env-img img {
+        width: 80vw;
+    }
+    
+    .env-p {
+        width: 80vw;
+        margin-right: 0;
+    }
+    
+    .event-section-1 {
+        text-align: center;
+        background-color: black;
+        color: white;
+        margin: 10vh 0;
+        padding: 5vh 0;
+        color: rgb(78, 211, 255);
+    }
+    
+    .event-section-1 h2 {
+        font-size: 2rem;
+    }
+    
+    .event-header{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .upcoming-event-row {
+        display: grid;
+        justify-content: space-around;
+    }
+    
+    .event-box {
+        margin: 0 2vw;
+    }
+    
+    .event-box img {
+        width: 80vw;
+    }
+    
+    .fix-img img {
+        width: 80vw;
+    }
+    
+    .event-section-2 {
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        margin: 5vh 0;
+    }
+    
+    .event-section-2 h2 {
+        font-size: 2rem;
+        margin: 0;
+    }
+    
+    .event-section-2 p {
+        padding: 2vh 10vw;
+    }
+    
+    .img-cap-row {
+        display:grid;
+        justify-content: center;
+    }
+
+    .img-cap img {
+        width: 60vw;
+        margin-bottom: -5vh;
+    }
+
+    .img-cap h3 {
+        writing-mode: vertical-rl;
+        text-orientation: upright;  
+        font-size: 1.1rem;
+        margin-top: -2vh;
+        padding: 0 2vh;
+    }
+
+    .right img {
+        float: right;
+    }
+
+    .right {
+        margin-right: 10vw;
+    }
+
+    .left img {
+        float: left;
+    }
+
+    .left {
+        margin-left: 10vw;
+    }
+
+    footer {
+        display: grid;
+        text-align: center;
+        justify-content: space-around;
+        background-color: black;
+        padding: 3vw;
+        color: white;
+    }
+}
+
+/* 
+sky blue
+    color: rgb(78, 211, 255);
+
+white
+
+black
+*/

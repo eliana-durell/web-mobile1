@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade + Inheritance</title>
+
+    <style>
+        h1 {
+            color:red;
+        }
+        .title {
+            color:green;
+        }
+        #top-title {
+            color:purple;
+        }
+        h1 {
+            color:orange; 
+        }
+    </style> <!--if we took out id and class then h1 would be orange-->
+</head>
+<body>
+    <h1 id="top-title" class="title">Cascade in CSS resolves conflict</h1> <!--w/ an inline it overrides the id and class-->
+    <ul>
+        <li>Stylesheet origin</li>
+        <li>Specificity</li>
+        <li>Order</li>
+    </ul>
+    <footer>
+        <a href="../index.html">Home Page</a>
+    </footer>
+</body>
+</html>

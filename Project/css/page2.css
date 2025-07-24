@@ -1,0 +1,339 @@
+body {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+    grid-template-rows: auto auto;
+    font-family: "Newsreader", serif;
+    background-image: url("/images/light-hero9.jpg");
+    /* not 2 3 4 6*/
+    /* yes 1 7 8 9  */
+    background-size: 100vw;
+    background-attachment: fixed;
+    background-color: rgb(251 251 242);
+}
+
+header {
+    width: 100vw;
+}
+
+nav {
+    display: flex; 
+    margin-bottom: 5vh;
+    position: sticky;
+    top: 0;
+    border: 1px solid black;
+    background-color: rgb(229 230 228);
+}
+
+#main-page {
+    border: none;
+    padding: 0;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+#main-page:hover {
+    color: green;
+}
+
+#main-page:active {
+    color: rgb(201, 2, 2);
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: rgb(229 230 228);
+}
+
+.first-h2 {
+    padding-left: 1vw;
+}
+
+.second-h2 {
+    padding-right: 1vw;;
+}
+
+a {
+    display:flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    background-color: rgb(229 230 228);
+    text-decoration: none;
+    width: 25vw;
+    height: 5vh;
+    padding-top: 2.5vh;
+    border: black 1px solid;
+    font-size: 1.2rem;
+    color: black;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 15px;
+    margin-top: 7vh;
+}
+.light-poll-block {
+    margin-top: 12vh;
+    grid-column: 2/3;
+    background-color: rgb(251 251 242);
+    padding: 0 3rem; 
+    box-sizing: border-box; 
+}
+
+.light-inner-block {
+    border-left: 2px solid black; 
+    border-right: 2px solid black; 
+    height: 100%; 
+    box-sizing: border-box; 
+    /* padding: 5rem;  */
+}
+
+.poll-header-line {
+    color: black;
+    background-color: black;
+    font-size: 2px;
+    margin: 0 17vw 4vh 17vw;;
+}
+
+.img-block {
+    display: flex;
+    justify-content: center;
+}
+
+.first-p {
+    margin: 5vh 7vw;
+}
+ 
+.first-p img {
+    float: left;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+    height: 40vh;
+    text-wrap: wrap;
+}
+
+.first-p p {
+    margin-top: -0.5vh;
+}
+
+.second-p {
+    margin: 1vh 7vw 6vh 7vw;
+}
+ 
+.second-p img {
+    float: right;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    height: 40vh;
+    text-wrap: wrap;
+}
+
+.second-p p {
+    margin-top: -0.5vh;
+}
+
+.third-p {
+    margin: 1vh 7vw 6vh 7vw;
+}
+ 
+.third-p img {
+    float: right;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    height: 40vh;
+    text-wrap: wrap;
+}
+
+.third-p p {
+    margin-top: -0.5vh;
+}
+.text-block {
+    padding: 2vh 7vw;
+}
+
+.fourth-p {
+    margin: 1vh 7vw 6vh 7vw;
+}
+ 
+.fourth-p img {
+    float: right;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    height: 40vh;
+    text-wrap: wrap;
+}
+
+.fourth-p p {
+    margin-top: -0.5vh;
+}
+
+img {
+    width: 40vw;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.company-block {
+    grid-column: 2/3;
+    background-color: rgb(251 251 242);
+
+    padding: 0 3rem; 
+    box-sizing: border-box; 
+}
+
+.company-inner-block {
+    border-left: 2px solid black; 
+    border-right: 2px solid black; 
+    height: 97%; 
+    box-sizing: border-box; 
+}
+
+.comp-header-line {
+    color: black;
+    background-color: black;
+    font-size: 2px;
+    margin: 0 15vw 4vh 15vw;
+}
+
+.line-block {
+    grid-column: 2/3;
+    background-color: rgb(251 251 242);
+}
+
+.line-break {
+    color: black;
+    background-color: black;
+    font-size: 2px;
+    margin: 7vh 4vw 1vh 4vw;
+}
+
+
+@media screen and (max-width:960px)  {
+    body {
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 10vw 80vw 10vw;
+        grid-template-rows: auto auto;
+        font-family: "Newsreader", serif;
+        background-image: url("/images/light-hero9.jpg");
+        background-size: 1500px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: rgb(251 251 242);
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin: 15px;
+        margin-top: 7vh;
+    }
+
+    #main-page {
+        font-size: 1.2rem;
+      }
+
+    .top-header {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        background-color: rgb(229 230 228);
+        font-size: 0.7rem;
+    }
+
+    .light-poll-block {
+        margin-top: 12vh;
+        grid-column: 2/3;
+        background-color: rgb(251 251 242);
+        padding: 0 1rem; 
+        box-sizing: border-box; 
+    }
+    
+    .light-inner-block {
+        border: none;
+        height: 100%; 
+        box-sizing: border-box; 
+    }
+    
+    .poll-header-line {
+        color: black;
+        background-color: black;
+        font-size: 2px;
+        margin: 0 12vw 4vh 12vw;;
+    }
+
+    img {
+        width: 50vw;
+    }
+
+    a {
+        display:flex;
+        justify-content: space-evenly;
+        justify-items: center;
+        background-color: rgb(229 230 228);
+        text-decoration: none;
+        width: 25vw;
+        height: 5vh;
+        padding-top: 2.5vh;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        border-left: black 1px solid;
+        border-right: black 1px solid;
+        font-size: 0.7rem;
+        color: black;
+    }
+    .company-block {
+        grid-column: 2/3;
+        background-color: rgb(251 251 242);
+        padding: 0 1rem; 
+        box-sizing: border-box; 
+    }
+
+    .company-inner-block {
+        border: none;
+        height: 98%; 
+        box-sizing: border-box; 
+    }
+
+    .first-p img {
+        float: left;
+        margin-right: 2vw;
+        margin-bottom: 2vh;
+        width: 60vw;
+        height: auto;
+        text-wrap: wrap;
+    }
+
+    .second-p img {
+        float: right;
+        margin-left: 2vw;
+        margin-bottom: 2vh;
+        width: 60vw;
+        height: auto;
+        text-wrap: wrap;
+    }
+
+    .third-p img {
+        float: right;
+        margin-left: 2vw;
+        margin-bottom: 2vh;
+        height: auto;
+        width: 60vw;
+        text-wrap: wrap;
+    }
+
+    .fourth-p img {
+        float: right;
+        margin-left: 2vw;
+        margin-bottom: 2vh;
+        height: auto;
+        width: 60vw;
+        text-wrap: wrap;
+    }
+
+}

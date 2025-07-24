@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+#main-page {
+    border: none;
+    padding: 0;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+#main-page:hover {
+    color: green;
+}
+
+#main-page:active {
+    color: rgb(201, 2, 2);
+}
+
+.elec-poll {
+    display: grid;
+    grid-template-columns: 40vw 20vw 40vw;
+}
+
+.img-col {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+img {
+    width: 18vw;
+    padding: 10px;
+    background-color: paleturquoise;
+
+}
+
+.comp-poll {
+    display: grid;
+    grid-template-columns: 40vw 20vw 40vw;
+}
+
+.half-block {
+    width: 40vw;
+    background-color: orange;
+    color: orange;
+    margin-top: 10vw;
+}
+
+.mid {
+    display: grid;
+    grid-template-columns: 40vw 20vw 40vw;
+}
+
+p {
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+}

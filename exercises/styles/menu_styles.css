@@ -1,0 +1,28 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 20px;
+    padding: 30px;
+    border: 1px #6B6A6A solid;
+    background-color: rgb(247, 242, 230);
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+h1 span {
+    color: darkgray;
+}
+
+.new-item {
+    color:coral;
+}
+
+h3 {
+    font-variant: small-caps;
+}

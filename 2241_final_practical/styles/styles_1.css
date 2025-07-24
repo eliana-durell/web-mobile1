@@ -1,0 +1,248 @@
+body {
+    margin: 0px;
+}
+
+h1, h2, h3, a {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+header {
+    background-color: rgb(246, 237, 226);
+}
+
+.logo {
+    width: 5vw;
+    height: 5vw;
+    float: left;
+    padding-top: 2vw;
+    padding-left: 2vw;
+}
+
+.top-header h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-right: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+nav {
+    display: flex; 
+    justify-content: space-around;
+    border: 2px black solid;
+}
+
+a {
+    display:flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    background-color: rgb(246, 237, 226);
+    text-decoration: none;
+    width: 33.33vw;
+    height: 5vh;
+    padding-top: 2.5vh;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    font-size: 1.2rem;
+    color: black;
+}
+
+a:hover {
+    display:flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    background-color: rgb(244, 201, 149);
+    text-decoration: none;
+    width: 33.33vw;
+    height: 5vh;
+    padding-top: 2.5vh;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    font-size: 1.5rem;
+    color: black;
+}
+
+a:active {
+    display:flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    background-color: rgb(242, 176, 96);
+    text-decoration: underline;
+    width: 33.33vw;
+    height: 5vh;
+    padding-top: 2.5vh;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.hero {
+    width: 100vw;
+}
+
+.overview {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.overview p {
+    padding: 0 20vw;
+    padding-bottom: 5vh;
+}
+
+.history {
+    text-align: center;
+}
+
+.history img {
+    width: 100vw;
+}
+
+.history p {
+    padding: 0 20vw;
+    padding-bottom: 5vh;
+}
+
+.environment {
+    text-align: center;
+    background-color: rgb(246, 237, 226);
+    padding-top: 2vh;
+}
+
+.img-caption-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-caption p {
+    width: 25vw;
+}
+
+.environment img {
+    width: 25vw;
+}
+
+.events {
+    text-align: center;
+    margin: 5vh 0;
+}
+
+.grid-card {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.actvity-card img {
+    width: 35vw;
+}
+
+.events p {
+    padding: 0 20vw;
+    padding-bottom: 2vh;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(246, 237, 226);
+    padding: 2vw;
+}
+
+#main-page {
+    color: black;
+    border: none;
+    font-size: 1rem;
+    display: inline;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+#main-page:hover {
+    color: green;
+}
+
+#main-page:active {
+    font-weight: bold;
+}
+
+@media screen and (max-width:960px)  {
+    .logo {
+        display: none;
+    }
+    .top-header h1 {
+        padding: 2vh 0;
+    }
+
+    h2 {
+        padding: 0 1vw;
+    }
+    
+    a {
+        font-size: 0.8rem;
+    }
+
+    a:hover {
+        font-size: 1rem;
+    }
+
+    a:active {
+        font-size: 1rem;
+    }
+
+    .overview p {
+        padding: 0 10vw;
+        padding-bottom: 5vh;
+    }
+
+    .history p {
+        padding: 0 10vw;
+        padding-bottom: 5vh;
+    }
+
+    .img-caption-row {
+        display: grid;   
+    }
+
+    .img-caption p {
+        width: 75vw;
+    }
+    
+    .environment img {
+        width: 75vw;
+    }
+
+    .actvity-card img {
+        width: 45vw;
+    }
+    
+    .events p {
+        padding: 0 10vw;
+        padding-bottom: 2vh;
+    }
+
+    footer {
+        display: grid;
+        text-align: center;
+        background-color: rgb(246, 237, 226);
+        padding: 3vw;
+    }
+}
+
+/* 
+light sand
+    rgb(246, 237, 226)
+
+white
+ */
